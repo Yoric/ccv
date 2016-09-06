@@ -1396,7 +1396,7 @@ void ccv_swt(ccv_dense_matrix_t* a, ccv_dense_matrix_t** b, int type, ccv_swt_pa
  * Return array of regions that are potentially text area.
  * @param a The input matrix.
  * @param params A **ccv_swt_param_t** structure that defines various aspect of the SWT function.
- * @return A **ccv_array_t** of **ccv_comp_t** with detection results.
+ * @return A **ccv_array_t** of **ccv_rect_t** with detection results.
  */
 CCV_WARN_UNUSED(ccv_array_t*) ccv_swt_detect_words(ccv_dense_matrix_t* a, ccv_swt_param_t params);
 
